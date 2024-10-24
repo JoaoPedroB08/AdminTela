@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Venda</title>
+</head>
+<body>
+
+    <button class="botao-return">Voltar as compras</button>
+
+    <div class="container">
+        <div class="conjunto-vender">
+            <form class="formulario-de-venda">
+    
+                <h1>Vender Periférico</h1>
+
+                <div class="venda-container">
+                    <!-- Lado Esquerdo: Nome, Descrição, Valor e Desconto -->
+                    <div class="lado-esquerdo">
+                        <label>
+                            Nome do produto:
+                            <input required type="text" placeholder="Nome do produto" class="input-grande">
+                        </label>
+
+                        <label>
+                            Descrição do produto:
+                            <textarea required placeholder="Descrição do produto" class="input-grande2"></textarea>
+                        </label>
+
+                        <div class="input-lado-a-lado">
+                            <label>
+                                Valor:
+                                <input required type="text" placeholder="Valor do produto" class="input-menor">
+                            </label>
+                        
+                            <label>
+                                Desconto:
+                                <input required type="text" placeholder="Desconto em %" class="input-menor">
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Lado Direito: Imagem e Botão -->
+                    <div class="lado-direito">
+                        <div class="onde-ficara-imagem">
+                            <span>Imagem ficará aqui</span>
+                        </div>
+
+                        <label>
+                            <input type="text" placeholder="Adicione a url" class="URL-da-imagem">
+                        </label>
+
+                        <button class="botao-a-venda">Colocar à venda</button>
+                    </div>
+                </div>
+    
+            </form>
+            
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
